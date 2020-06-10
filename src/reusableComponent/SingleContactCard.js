@@ -12,7 +12,6 @@ class SingleContactCard extends Component {
         <div className="card-body">
             <h5 className="card-title">Contact No. {this.props.index + 1}</h5>
             <h6 className="card-subtitle mb-2 text-muted">Name: {this.props.name}</h6>
-            {/* <h6 className="card-subtitle mb-2 text-muted">Mobile No.: {this.props.mobile}</h6> */}
         </div>
       </div>
     )
